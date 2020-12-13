@@ -17,8 +17,9 @@ cont=1
 start = time.time()
 while(cont<300):
     ret, frame = cap.read()
-    faces = hog_face_detector(frame, 0)
-    #faces = hog_face_detector(frame, 1)
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    faces = hog_face_detector(gray, 0)
+    #faces = hog_face_detector(gray, 1)
     for (i, face) in enumerate(faces):
         cv2.rectangle(frame, (face.left(),face.top()), (face.right(),face.bottom()), (255,0,0), 2)
     cv2.imshow('Frame', frame)
