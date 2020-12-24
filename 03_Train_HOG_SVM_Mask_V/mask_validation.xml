@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/000.jpg'>
+    <box top='329' left='262' width='287' height='311'>
+      <label>mask</label>
+    </box>
+  </image>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/001.jpg'>
+    <box top='240' left='489' width='269' height='349'>
+      <label>mask</label>
+    </box>
+  </image>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/002.jpg'>
+    <box top='221' left='345' width='372' height='492'>
+      <label>mask</label>
+    </box>
+  </image>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/003.jpg'>
+    <box top='624' left='1935' width='1144' height='1669'>
+      <label>mask</label>
+    </box>
+    <box top='776' left='412' width='685' height='835'>
+      <label>mask</label>
+    </box>
+  </image>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/004.jpg'>
+    <box top='51' left='333' width='152' height='189'>
+      <label>mask</label>
+    </box>
+  </image>
+  <image file='/home/edee/Desktop/dlib_train/dataset/validation/005.jpg'>
+    <box top='51' left='127' width='176' height='241'>
+      <label>mask</label>
+    </box>
+  </image>
+</images>
+</dataset>
