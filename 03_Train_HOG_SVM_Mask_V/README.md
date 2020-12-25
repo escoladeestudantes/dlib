@@ -54,3 +54,10 @@ cmake --build . --config Release
 ```
 
 <p>Realizar o treinamento colando o arquivo de extensão <b>svm</b> na mesma pasta que o código. Testá-lo no conjunto de validação e posteriormente em imagens e vídeos diferentes.</p>
+
+<b>Referências<b/>
+<ul>
+  <li>https://github.com/davisking/dlib/blob/master/python_examples/train_object_detector.py</li>
+  <li>https://blog.codecentric.de/en/2018/10/diesel-car-hog-detector/</li>
+  <li>https://handmap.github.io/dlib-classifier-for-object-detection/</li>
+</ul>
